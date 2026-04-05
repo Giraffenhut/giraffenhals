@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #609ad8;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+main.doodle {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 900px;
+    width: 90%;
+}
+
+.item {
+     text-align: center;
+}
+
+.item img {
+    width: 100%; 
+    height: auto;
+    display: block;
+}
+
+footer {
+    background: #4c4641;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 15px;
+}
